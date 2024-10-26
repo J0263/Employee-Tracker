@@ -1,0 +1,24 @@
+{
+  "name": "02-challenge-copy",
+  "version": "1.0.0",
+  "description": "Employee Tracker using TypeScript and PostgreSQL",
+  "main": "dist/index.js",                            
+  "scripts": {
+    "build": "tsc",                                   
+    "start": "node dist/index.js",                    
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "inquirer": "^8.2.6",
+    "pg": "^8.13.0"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^9.0.7",
+    "@types/node": "^22.7.8",
+    "@types/pg": "^8.11.10",
+    "typescript": "^5.6.3"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
